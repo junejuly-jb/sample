@@ -1,0 +1,243 @@
+body{
+    font-family: Product Sans;
+    margin: 0;
+}
+a{
+    color: #fff;
+}
+navbar-nav > li > a{
+    color: orange;
+}
+
+.signup{
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 35px;
+}
+
+.parallax {
+    background-image: url("../images/parallax-1.png");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding: 10px 0px;
+}
+.main-content{
+    padding-top: 240px;
+    text-align: right;
+    margin-bottom: 0;
+    color: white;
+    font-family: Product Sans;
+    margin-right: 50px;
+}
+.main-content h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.main-content p{
+    font-size: 20px;
+}
+.intro{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: 50px;
+    margin-left: 50px;
+    color: black;
+}
+.intro h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF7F50;
+}
+.intro p{
+    font-size: 20px;
+}
+.services{
+    padding: 50px 0px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.services h1{
+    text-align: center;
+    color: white;
+}
+.services p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+
+.img-talents{
+    width: 200px;
+}
+.talent-description{
+    font-size: 20px;
+    font-family: Product Sans;
+    padding: 20px 0px;
+    margin: 0;
+}
+.bg{
+    background: transparent;
+    transition: 0.5s;
+}
+.scrolled{
+    background-color: white;
+    color: #000000 !important;
+    transition: 0.5s;
+}
+
+.scrolled > .text-light{        
+    color: #000000 !important;        
+}
+.text-scrolled{
+    color: black;
+}
+.services-2p{
+    font-size: 18px;
+}
+div .find-out-more{
+    background: white;
+    color: #FF7F50;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.features{
+    text-align: center;
+    padding: 130px 0px;
+}
+.features-heading{
+    color: #FF7F50;
+}
+.features div h1{
+    color: #FF7F50;
+    padding: 20px 0px;
+}
+.features-sub{
+    color: #3F3F3F;
+}
+.header-mobile{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.header-mobile h1{
+    color: #FF7F50;
+}
+.header-mobile p{
+    color: #3F3F3F;
+}
+.wrapper{
+    width: 100%;
+    padding: 20px 0px;
+    height: auto;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.item img{
+    max-width: 200px;
+    align-items: center;margin: 0 auto;
+}
+.owl-carousel .owl-state-outer .owl-stage .owl-item .item{
+    
+    background: #495aff;
+    max-width: 220px;
+}
+
+
+
+
+
+
+/* @media (min-width: 992px){    
+
+    nav .container #mainNav .navbar-nav .nav-item .nav-link {
+        color: #212529;
+    }
+} */
+
+
+.scrolled .navbar-brand {
+    color: #FF7F50 !important;
+}
+
+.scrolled .navbar-nav .nav-item .nav-link {
+    color: #212529 !important;
+}
+
+.scrolled .navbar-nav .navbar-brand{
+    font-style: uppercase;
+}
+.googleplay{
+    text-align: center;
+    padding: 100px 0px;
+}
+.googleplay img{
+    max-width: 200px;
+}
+.footer{
+    background: #151947;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 671px){
+    .parallax{
+        margin: 0;
+        background-image: url("../images/parallax-1.png");
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .intro{
+        margin-left: 0;
+        padding: 150px 0px;
+    }
+
+    .intro h1{
+        text-align: center;
+    }
+
+    .intro p{
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .parallax .main-content h1{
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    div.main-content.mr-md{
+        margin: 0;
+    }
+    .main-content p{
+        text-align: justify;
+        margin: 0px 20px;
+    }
+}
+@media screen and (min-width: 768px){
+    .intro{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.nav .container .collapse ul li .btn:hover{
+    background: darkorange;
+}
